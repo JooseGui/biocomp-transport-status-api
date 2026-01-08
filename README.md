@@ -23,3 +23,14 @@ Backend/API project focused on workflow automation, traceability and notificatio
 ```text
 /src        # Application source code
 /docs       # API documentation and diagrams
+## Run locally
+
+```bash
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# Mac/Linux:
+source .venv/bin/activate
+
+pip install -r requirements.txt
+uvicorn src.main:app --reload
