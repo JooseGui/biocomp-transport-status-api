@@ -34,3 +34,11 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 uvicorn src.main:app --reload
+## Endpoints (summary)
+
+GET  /health  
+GET  /status/{order_id}  
+PATCH /status/{order_id}  
+POST /incidents  
+
+More details: see `docs/ENDPOINTS.md` and `docs/WORKFLOW.md`.
