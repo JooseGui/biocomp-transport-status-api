@@ -24,6 +24,7 @@ Backend/API project focused on workflow automation, traceability and notificatio
 /src        # Application source code
 /docs       # API documentation and diagrams
 ## Run locally
+API docs (Swagger): http://127.0.0.1:8000/docs
 
 ```bash
 python -m venv .venv
